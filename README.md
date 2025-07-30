@@ -1,4 +1,4 @@
-# Enterprise Security Lab – Part 1.5: Snort IDS/IPS Deployment
+# Enterprise Security Lab – Part 1.1: Snort IDS/IPS Deployment
 
 ## 1. Overview
 
