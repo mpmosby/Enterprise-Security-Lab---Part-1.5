@@ -49,7 +49,7 @@ Verified Snort was active and monitoring the ECORP LAN.
 
 ### 4.2 Writing and Testing ICMP (Ping) Detection Rule
 
-A custom ICMP detection rule was created (see screenshot).  
+A custom ICMP detection rule was created.  
 ![Custom Rule](images/snort-installed4.png)
 
 ---
@@ -119,7 +119,7 @@ The following prebuilt rule sets were enabled:
 
 ---
 
-## 5. Results & Lessons Learned
+## 5. Results
 
 - Successfully installed and configured Snort as IDS and IPS  
 - Validated multiple detection rules: ICMP, `.exe` downloads, PE magic numbers  
@@ -129,28 +129,7 @@ The following prebuilt rule sets were enabled:
 
 ---
 
-## 6. Why This Matters
 
-Snort is still widely used in enterprise environments and foundational to understanding IDS/IPS concepts.  
-Being able to write, test, and tune detection rules is a core skill for Security Engineers, especially in roles that manage firewalls, IPS, or security monitoring tools.
-
----
-
-## 7. Skills Gained
-
-- IDS/IPS configuration and management  
-- Custom Snort rule development  
-- Traffic simulation with Kali Linux, msfvenom, and Python  
-- Troubleshooting and tuning for false negatives  
-- Understanding and leveraging community rule sets  
-
----
-
-## 8. Next Steps
-
-This project prepares the lab for **Project 2: Mr. Robot Red/Blue Team Exercise**, which will combine Snort alerts with Splunk, Sysmon, and other tools to detect and respond to simulated attacks.
-
-Full image set: See all screenshots in the images folder.
 
 
 
